@@ -1,35 +1,25 @@
-// let divRoot = document.getElementById("root");
+// const page = (
+//   <div id="main-page">
+//     <img id="react-logo" src="./react-logo.png" />
+//     <h1>Fun facts about react</h1>
+//     <ul>
+//       <li>Was first released in 2013</li>
+//       <li>Was first released in 2014</li>
+//       <li>Was first released in 2015</li>
+//       <li>Was first released in 2016</li>
+//       <li>Was first released in 2017</li>
+//     </ul>
+//   </div>
+// );
 
-// let pEl = document.createElement("p");
-// pEl.id = "header";
-// pEl.innerHTML = `Hello React!`;
-// divRoot.appendChild(pEl);
-// console.log(pEl);
+// ReactDOM.render(page, document.getElementById("root"));
 
-// function MainContent() {
-//   return (
-//     <div className="main">
-//       <h1 id="h1">I am learning react</h1>
-//     </div>
-//   );
-// }
+function multiply(a, b) {
+  return a * b;
+}
+console.log(multiply(13, 55));
 
-// ReactDOM.render(<MainContent />, document.getElementById("root"));
-
-// const element = <h1 className="header">This is JSX</h1>;
-// console.log(element);
-// ReactDOM.render(element, document.getElementById("root"));
-
-const page = (
-  <div>
-    <h1>My page is Awesome</h1>
-    <h2>React is wonderful</h2>
-    <ul>
-      <li>Scalable</li>
-      <li>Easy</li>
-      <li>Actively maintained</li>
-    </ul>
-  </div>
-);
-
-ReactDOM.render(page, document.getElementById("root"));
+function plus(a, b, c) {
+  return a + b + c;
+}
+console.log(plus(22, 44, 66));
