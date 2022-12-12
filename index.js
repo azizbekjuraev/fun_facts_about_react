@@ -8,9 +8,17 @@ function Header() {
   );
 }
 
-ReactDOM.render(<Header />, document.getElementById("head"));
+// ReactDOM.render(<Header />, document.getElementById("head"));
 
-function Page() {
+function Footer() {
+  return (
+    <footer>
+      <small>©️ 2022 JURAEV development. All rights reserved</small>
+    </footer>
+  );
+}
+
+function Text() {
   return (
     <div>
       <h1>Why I like React?</h1>
@@ -20,9 +28,16 @@ function Page() {
         <li>It runs many apps in the world</li>
         <li>User friendly</li>
       </ol>
-      <footer>
-        <small>©️ 2022 JURAEV development. All rights reserved</small>
-      </footer>
+    </div>
+  );
+}
+
+function Page() {
+  return (
+    <div>
+      <Header />
+      <Text />
+      <Footer />
     </div>
   );
 }
