@@ -1,8 +1,13 @@
 function Header() {
   return (
     <header>
-      <nav>
-        <img src="./react-logo.png" width={"60px"} />
+      <nav className="nav">
+        <img className="react-logo" src="./react-logo.png" />
+        <ul className="nav-items">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   );
@@ -12,7 +17,7 @@ function Header() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer-el">
       <small>©️ 2022 JURAEV development. All rights reserved</small>
     </footer>
   );
@@ -20,7 +25,7 @@ function Footer() {
 
 function Text() {
   return (
-    <div>
+    <div className="text-el">
       <h1>Why I like React?</h1>
       <ol>
         <li>Its fast</li>
