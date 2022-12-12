@@ -13,13 +13,3 @@
 // );
 
 // ReactDOM.render(page, document.getElementById("root"));
-
-function multiply(a, b) {
-  return a * b;
-}
-console.log(multiply(13, 55));
-
-function plus(a, b, c) {
-  return a + b + c;
-}
-console.log(plus(22, 44, 66));
