@@ -1,11 +1,18 @@
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src="./react-logo.png" width={"60px"} />
+      </nav>
+    </header>
+  );
+}
+
+ReactDOM.render(<Header />, document.getElementById("head"));
+
 function Page() {
   return (
     <div>
-      <header>
-        <nav>
-          <img src="./react-logo.png" width={"60px"} />
-        </nav>
-      </header>
       <h1>Why I like React?</h1>
       <ol>
         <li>Its fast</li>
